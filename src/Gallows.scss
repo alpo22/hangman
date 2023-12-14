@@ -1,0 +1,24 @@
+.gallows {
+  background-image: url("http://www.flashbynight.com/tutes/hangmanhtml5/example/man.png");
+  background-repeat: no-repeat;
+  flex: 1 1 200px;
+  width: 75px;
+  margin: 0px auto;
+}
+
+.gallows--1 {
+  background-position: -75px 0;
+}
+
+.gallows--2 {
+  background-position: -150px 0;
+}
+.gallows--3 {
+  background-position: -225px 0;
+}
+.gallows--4 {
+  background-position: -300px 0;
+}
+.gallows--5 {
+  background-position: -450px 0;
+}
