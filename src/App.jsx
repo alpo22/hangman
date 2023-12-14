@@ -115,7 +115,7 @@ function App() {
           />
         )}
       </div>
-      <div>
+      <div className="keyboard">
         <Keyboard guessedLetters={guessedLetters} onKeyPress={onKeyPress} />
       </div>
     </>
