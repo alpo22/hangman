@@ -57,7 +57,9 @@ function App() {
 
   useEffect(() => {
     if (strikes >= 5) {
-      setStatus(STATE_LOST);
+      setTimeout(() => {
+        setStatus(STATE_LOST);
+      }, 500);
     }
   }, [strikes]);
 
