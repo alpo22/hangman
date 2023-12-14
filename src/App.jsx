@@ -8,6 +8,7 @@ import LostModal from "./LostModal";
 import "./App.scss";
 
 // if there is a space in the solution, it doesnt detect that you won
+// free words API: https://random-word-api.herokuapp.com/home
 // TODO: share result
 // TODO: back-end
 // TODO: different hangman routes
